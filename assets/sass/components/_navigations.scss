@@ -1,0 +1,56 @@
+/* COMPONENTS: NAVIGATIONS
+   ========================================================================== */
+/* Base*/
+.navbar {
+  padding: .5em 2.5em 1em;
+  background-color: $gris;
+  color:$gris ;
+  
+}
+.navbar-brand img {
+  width: 10rem;
+}
+.user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1em;
+}
+
+.user-info__summary {
+  padding-left: .8em;
+
+  h2 {
+    margin: 0;
+    font-size: $medium;
+  }
+
+  p {
+    margin: 0;
+    font-size: $x-small;
+    color: #000;
+  }
+}
+
+
+/* Override vendors styles
+.fa-comment-alt:before {
+  padding-right: 1em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler {
+  padding: 5px 0;    
+  width: 3.5em;
+  height: 3.5em;
+  color: $red;
+
+}
+
+.navbar-light .navbar-toggler {
+  border-color: $red;
+}
+*/
