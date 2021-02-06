@@ -12,14 +12,17 @@ header {
 .carousel-indicators {
   top: 50px;
 }*/
-
-
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+.carousel-indicators .active {
+  border-color: $red;
 }
-
+.hero-text1
+{
+  color: $yellow;
+}
+.hero-text
+{
+  color: $red;
+}
 /*Section Carrusel*/
 .img-carrusel {
   max-width: 16rem;
@@ -33,6 +36,7 @@ header {
   height: 0.7925rem;
   border-radius: 50%;
   background-color: $red;
+  margin-top: 6rem;
 }
 
 .main {

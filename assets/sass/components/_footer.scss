@@ -10,10 +10,11 @@
 /*Section Footer*/
 footer {
   height: 130px;
+  background-color: $red;
 }
 footer h2, footer i {
   text-decoration: none;
-  background-color: $dark;
+  background-color: $red;
   color: $white;
   margin: .5rem;
 }
@@ -22,7 +23,7 @@ footer h2, footer i {
   margin: 0 auto 2rem;
 }
 footer i:hover {
-  color: $red;
+  color: $blue;
   text-decoration: none;
 }
 

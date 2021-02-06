@@ -41,19 +41,18 @@
   }
 }
 .button_second {
-  padding: 1rem 2rem 1rem 2rem;
-  color: $gris;
-  background-color: $white;
-  border: 1px solid $green;
+  
+  background-color: $yellow !important;
+  color: $white;
 
   &:hover {
     color: $gris;
-    background-color: $celeste;
+    background-color: $blue;
     border: none;
   }
 
   &:focus {
     color: $gris;
-    background-color: $white;
+    background-color: $red;
   }
 }
